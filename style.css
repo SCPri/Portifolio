@@ -12,7 +12,7 @@
     --spacing-sm: 10px;
     --spacing-md: 20px;
     --spacing-lg: 40px;
-    --header-height: 120px; /* Nova variável para a altura estimada do cabeçalho */
+    --header-height: 100px; /* Nova variável para a altura estimada do cabeçalho */
 }
 
 /* Estiliza o corpo da página */
@@ -57,7 +57,7 @@ header {
 }
 
 header h1 { /* Ajuste para o h1 dentro do header */
-    font-size: 2rem; /* Tamanho do seu nome no cabeçalho */
+    font-size: 1rem; /* Tamanho do seu nome no cabeçalho */
     margin-bottom: 5px;
     color: var(--light-text-color);
 }
@@ -80,7 +80,7 @@ header nav ul {
 
 header nav ul li a {
     color: var(--light-text-color);
-    font-weight: 500; /* Peso da fonte ligeiramente mais forte */
+    font-weight: 200; /* Peso da fonte ligeiramente mais forte */
     padding: 5px 10px; /* Área clicável maior */
     transition: color 0.3s ease, transform 0.3s ease; /* Transição para cor e escala */
 }
@@ -95,7 +95,7 @@ header nav ul li a:hover {
 /* Removido o h1 que estava fora do cabeçalho, pois o HTML usa h2 para títulos de seção */
 
 .subtitulo { /* Este subtitulo é para subtítulos de seção, se houver */
-    font-size: 1.1rem; /* Tamanho do subtítulo um pouco maior */
+    font-size: 3.0rem; /* Tamanho do subtítulo um pouco maior */
     margin-top: 6px;
     color: #666; /* Cor cinza mais escura */
     letter-spacing: 0.5px;
@@ -104,7 +104,7 @@ header nav ul li a:hover {
 }
 
 h2 { /* Títulos das seções */
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     color: var(--primary-color);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-md);
@@ -112,7 +112,7 @@ h2 { /* Títulos das seções */
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     color: var(--primary-color);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-md);
